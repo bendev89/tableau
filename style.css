@@ -5,7 +5,11 @@ table, th, td {
     text-align: center;
     }
 
-    th {
+    thead tr:nth-child(1){
+        background-color: #D3D3D3;
+    }
+    th[scope="row"] {
+        font-weight: normal;
         background-color: #D3D3D3;
     }
     table {
